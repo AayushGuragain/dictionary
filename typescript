@@ -1,0 +1,49 @@
+Script started on 2021-10-24 16:54:50-0700
+]0;aayush@ubuntu: ~/Computer Science/Studying/Fall 2020/SystemsProgramming/Mine/A2[01;32maayush@ubuntu[00m:[01;34m~/Computer Science/Studying/Fall 2020/SystemsProgramming/Mine/A2[00m$ [K make run
+rm -f parser search index.bin cards.bin no_of_cards.bin
+gcc -g -o parser parser.c -std=gnu11 -Wall -Werror
+./parser cards.csv
+gcc -g -o search search.c -std=gnu11 -Wall -Werror
+./search
+>> b
+Beamsplitter Mage                             {U}{R}
+Creature - Vedalken Wizard                  uncommon
+----------------------------------------------------
+Whenever you cast an instant or sorcery spell that targets only Beamsplitter Mage, if you control one or more other creatures that spell could target, choose one of those creatures. Copy that spell. The copy targets the chosen creature.
+----------------------------------------------------
+                                                 2/2
+
+>> absorb
+Absorb                                     {W}{U}{U}
+Instant                                         rare
+----------------------------------------------------
+Counter target spell. You gain 3 life.
+----------------------------------------------------
+                                                    
+
+>> the
+The Haunt of Hightower                     {4}{B}{B}
+Legendary Creature - Vampire                  mythic
+----------------------------------------------------
+Flying, lifelink
+Whenever The Haunt of Hightower attacks, defending player discards a card.
+Whenever a card is put into an opponent's graveyard from anywhere, put a +1/+1 counter on The Haunt of Hightower.
+----------------------------------------------------
+                                                 3/3
+
+>> H
+Hellkite Whelp                                {4}{R}
+Creature - Dragon                           uncommon
+----------------------------------------------------
+Flying
+Whenever Hellkite Whelp attacks, it deals 1 damage to target creature defending player controls.
+----------------------------------------------------
+                                                 3/3
+
+>> q
+]0;aayush@ubuntu: ~/Computer Science/Studying/Fall 2020/SystemsProgramming/Mine/A2[01;32maayush@ubuntu[00m:[01;34m~/Computer Science/Studying/Fall 2020/SystemsProgramming/Mine/A2[00m$  make clean
+rm -f parser search index.bin cards.bin no_of_cards.bin
+]0;aayush@ubuntu: ~/Computer Science/Studying/Fall 2020/SystemsProgramming/Mine/A2[01;32maayush@ubuntu[00m:[01;34m~/Computer Science/Studying/Fall 2020/SystemsProgramming/Mine/A2[00m$  exit
+exit
+
+Script done on 2021-10-24 16:55:30-0700
